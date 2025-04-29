@@ -29,6 +29,7 @@ This is a simple weather application that provides the current weather for your 
 
 - `script.js`: Contains the JavaScript logic for fetching and displaying weather data.
 
+
 ## API Key
 
 The application uses the OpenWeather API to fetch weather data. Ensure that the `apiKey` variable in `script.js` is set to a valid OpenWeather API key.
