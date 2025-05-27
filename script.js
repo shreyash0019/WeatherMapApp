@@ -24,6 +24,9 @@ document.getElementById('currentLocation').addEventListener('click', () => {
                     <p><strong>Humidity:</strong> ${data.main.humidity}%</p>
                 `;
             })
+             .catch(error => {
+                weatherDetails.innerHTML = `<p>${error.message}</p>`;
+            });
            
     });
 });
